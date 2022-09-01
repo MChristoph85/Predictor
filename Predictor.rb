@@ -27,7 +27,6 @@ column_4 = '04','08','12','16'
 
 
 
-
 #This is where the program starts
 # puts row_column
 
@@ -345,7 +344,7 @@ map_possibilities = [
   puts "you may no longer use these options: ==> " + right_row.to_s
   end 
 
-  
+
 ########First number requst####################
 puts 'enter your first number here: '
 loop do
