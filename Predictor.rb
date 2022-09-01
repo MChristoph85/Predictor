@@ -26,13 +26,6 @@ column_3 = '03','07','11','15'
 column_4 = '04','08','12','16'
 
 
-# row_column = { row_1: row_1, column_1: column_1,
-#                row_2: row_2, column_2: column_2,
-#                row_3: row_3, column_3: column_3,
-#                row_4: row_4, column_4: column_4}
-
-
-
 
 
 #This is where the program starts
@@ -326,6 +319,8 @@ map_possibilities = [
     end
     end
 
+
+
  def my_selection(choice)
  #############ROWS############
   row_1 = [1, 2, 3, 4]
@@ -350,12 +345,7 @@ map_possibilities = [
   puts "you may no longer use these options: ==> " + right_row.to_s
   end 
 
-# end
-
-# option_1 = Selection.new($guess)
-# option_2 = Selection.new($guess_2)
-# option_3 = Selection.new($guess_3)
-# option_4 = Selection.new($guess_4)
+  
 ########First number requst####################
 puts 'enter your first number here: '
 loop do
